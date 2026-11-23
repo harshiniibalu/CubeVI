@@ -4,32 +4,13 @@ CubeVI is an interactive 3D visualizer and AI-powered solver for the 2×2×2 Poc
 
 ---
 
-## ✨ Features
+## Features
 
 - **Interactive 3D Simulation**: Real-time 3D cube rendering powered by Three.js and React Three Fiber with orbit controls and smooth turn animations.
 - **Color Palette & Sticker Painting**: Paint custom cube configurations directly onto the 3D cube with validation to ensure valid color counts.
 - **Fast Optimal Solver**: Backend uses **IDA\* (Iterative Deepening A\*)** with precomputed **Pattern Databases (PDB)** to deliver optimal shortest-path solutions.
 - **Step-by-Step Playback**: Step through, pause, or animate solutions at variable speeds (0.5× to 2×).
 - **Random Scrambler**: One-click generation of valid random scrambles preventing redundant or canceling moves.
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React 18, Vite, Three.js, `@react-three/fiber`, `@react-three/drei`
-- **Backend**: Python 3, FastAPI, Uvicorn, Pydantic
-- **Testing**: Pytest
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v18+) & npm
-- Python (3.10+)
-
----
 
 ### 1. Backend Setup
 
